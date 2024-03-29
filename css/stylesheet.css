@@ -567,8 +567,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #212529 !important;
 }
 
-.bg-dark-2 {
+/* .bg-dark-2 {
   background-color: #343a40 !important;
+} */
+.bg-dark-2 {
+  background-color: #343a40;
 }
 
 .bg-dark-3 {
@@ -2894,8 +2897,15 @@ html[dir="rtl"] #footer .nav .nav-item:last-child .nav-link {
   color: #C4302B;
 }
 
-.social-icons li:hover.social-icons-instagram a, .social-icons.social-icons-colored li.social-icons-instagram a {
+.social-icons li:hover.social-icons-instagram a, .social-icons.social-icons-colored li.social-icons-instagram a .intext{
   color: #3F729B;
+}
+.fab.fa-instagram.intext:hover {
+  color: transparent;
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-icons li:hover.social-icons-skype a, .social-icons.social-icons-colored li.social-icons-skype a {
