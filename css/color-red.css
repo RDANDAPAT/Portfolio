@@ -25,6 +25,10 @@
     border-color: #dc3545;
   }
   
+  /*== Profile image boder ==*/
+.primary-menu .container-fluid .bg-dark-2{
+  background-color: #dc3545;
+}
   /*== Secondary Nav ==*/
   .secondary-nav.nav.alternate .nav-item .nav-link.active {
     border-color: #dc3545;

@@ -25,6 +25,10 @@
     border-color: #fd7e14;
   }
   
+  /*== Profile image boder ==*/
+.primary-menu .container-fluid .bg-dark-2{
+  background-color: #fd7e14;
+}
   /*== Secondary Nav ==*/
   .secondary-nav.nav.alternate .nav-item .nav-link.active {
     border-color: #fd7e14;
